@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { FaUserAlt, FaRegImage, FaUserEdit } from "react-icons/fa";
 import { MdHelpCenter } from "react-icons/md";
-import { TbDownloadOff, TbDownload } from "react-icons/tb";
+import { TbWorldOff } from "react-icons/tb";
 import Link from "next/link";
 
 //INTERNAL IMPORT
@@ -57,9 +57,9 @@ const Profile = () => {
             </p>
           </div>
           <div className={Style.profile_menu_one_item}>
-            <TbDownload />
+            <TbWorldOff />
             <p>
-              <Link href={{ pathname: "/disconnet" }}>Disconnet</Link>
+              <Link href={{ pathname: "/Disconnect" }}>Disconnect</Link>
             </p>
           </div>
         </div>
