@@ -15,7 +15,7 @@
 
 .profile_account{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 2rem;
     padding: 1.5rem;
 }
@@ -44,4 +44,12 @@
     background-color: var(--icons-color);
     color: var(--shadow-dark-color);
     border-radius: .3rem;
+}
+
+@media screen and (min-device-width: 320px) and  (max-device-width: 425px) {
+    .profile {
+        margin: 0rem 4.8rem;
+        width: 16rem;
+       
+    }
 }
